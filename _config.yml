@@ -2,11 +2,13 @@
 # Site Information Settings
 # ===========================================
 
+
 # Site creation time
-since: 2014
+since: 2018
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
+
 
 # Set feed link (false | default | your feed link)
 # false: disable
@@ -18,7 +20,8 @@ rss: default
 # ===========================================
 menu:
   Archives: /archives
-  About: /about
+  About: /about/me.html
+  # Project: /project
 
 # ===========================================
 # Widget Settings
@@ -30,12 +33,18 @@ menu:
 #   content: Add your html code in here. Example: <p>testing...</p>
 widget:
   Tags: true
-  Categories: false
-  Custom: false
+  Categories: false 
+  Custom: false 
 
 widget_custom:
-    title: Test
-    content: <p>testing...</p>
+    title: Player 
+    content: <p><a href="www.baidu.com">test</a></p>
+
+widget_custom2:
+    title: Player2 
+    content: <p><a href="www.baidu.com">test</a></p>
+
+
 
 # ===========================================
 # Theme Settings
@@ -61,6 +70,7 @@ duoshuo_shortname:
 disqus_shortname:
 
 
+languages: zh-cn
 # ===========================================
 # Version
 # ===========================================
