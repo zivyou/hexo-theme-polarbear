@@ -21,7 +21,7 @@ rss: default
 menu:
   Archives: /archives
   About: /about/me.html
-  # Project: /project
+  Project: /project
 
 # ===========================================
 # Widget Settings
@@ -38,11 +38,11 @@ widget:
 
 widget_custom:
     title: Player 
-    content: <p><a href="www.baidu.com">test</a></p>
+    content: <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=4&id=792201363&auto=0&height=430"></iframe>
 
-widget_custom2:
-    title: Player2 
-    content: <p><a href="www.baidu.com">test</a></p>
+# widget_custom2:
+#     title: Player2 
+#     content: <p><a href="www.baidu.com">test</a></p>
 
 
 
@@ -53,21 +53,23 @@ widget_custom2:
 # color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
 theme:
   color: Default
-  fancybox: false
+  fancybox: true
 
 # ===========================================
 # Third Party Services Settings
 # ===========================================
 
 # Baidu Analytics
-baidu_analytics:
+baidu_analytics: 
 # Google Analytics
-google_analytics:
+google_analytics: 
 
 # Duoshuo
-duoshuo_shortname:
+duoshuo_shortname: 
 # Disqus
-disqus_shortname:
+disqus_shortname: zivyou
+
+latex: true
 
 
 languages: zh-cn
