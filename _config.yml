@@ -44,7 +44,10 @@ widget_custom:
 #     title: Player2 
 #     content: <p><a href="www.baidu.com">test</a></p>
 
-
+# MathJax support
+mathjax:
+      enable: true
+      per_page: true
 
 # ===========================================
 # Theme Settings
