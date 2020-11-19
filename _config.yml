@@ -55,6 +55,8 @@ theme:
   color: Default
   fancybox: true
 
+mathjax:
+  enable: true
 # ===========================================
 # Third Party Services Settings
 # ===========================================
